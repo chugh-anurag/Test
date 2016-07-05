@@ -33,7 +33,7 @@ namespace ProgrammingTests
              * 3. Write a query to find the total number of years that all employees (still employed or not) have worked.               
              * 
              * 4. Implement the FizzBuzz method below exactly to requirements
-             * 5. Implement ReverseWords to requirements, taking case that it 
+             * 5. Implement ReverseWords to requirements, taking care that it 
              *    doesn't fail for any of the cases in TestAlgorithms
              * 
              */
@@ -82,8 +82,8 @@ namespace ProgrammingTests
 
         /// <summary>
         /// </summary>
-        /// <param name="sentance"></param>
-        public static string ReverseWords(string sentance)
+        /// <param name="sentence"></param>
+        public static string ReverseWords(string sentence)
         {
             /*
              * write a function to reverse the words in a string which 
