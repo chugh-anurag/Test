@@ -6,7 +6,7 @@ namespace Entities
     {
         public Person Employee { get; set; }
 
-        public DateTime EmployementStartDate { get; set; }
+        public DateTime EmploymentStartDate { get; set; }
 
         public DateTime? EmploymentEndDate { get; set; }
 
